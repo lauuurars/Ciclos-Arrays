@@ -53,7 +53,7 @@ console.log(i)
 */
 
 //------------- Usar For Of
-
+/*
 let nombres = ["Carlos", "Pepe", "Ana", "Luisa"]
 
 for (const nombre of nombres) {
@@ -61,3 +61,29 @@ for (const nombre of nombres) {
 }
 
 console.log("Estoy Fuera!")
+*/
+
+//------------------Continue y Break
+
+//Break sirve para romper el bucle cuando encuentro lo que estaba buscando, el bucle no termina y solo llega hasta la posición deseada
+
+//Continue sirve para hacer una iteración completa si es necesario y salta a la otra iteración sin terminar el ciclo
+
+//Ejemplo
+
+let estudiantes = [20, 19, 21, 39, 12]
+
+let mayor = 0
+
+for (let i = 0; i<estudiantes.length; i++) {
+    if (estudiantes[i] < 18) {
+        continue
+    }
+
+    if (estudiantes[i] > mayor) {
+        mayor = estudiantes[i]
+    }
+    console.log("El estudiante mayor era", mayor)
+}
+
+console.log("El estudiante mayor al final es", mayor)
