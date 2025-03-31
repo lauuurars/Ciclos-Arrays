@@ -38,4 +38,13 @@ do {
     contador += 1
 } while (contador < 100)
 
+//------------- Usar For
 
+for (let i= 0; i<10; i++){
+    console.log("iteración for número", i)
+} 
+
+//usar variable de for por dentro de console.log
+
+console.log(i)
+//i = iteración, es una variable 
