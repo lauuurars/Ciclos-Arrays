@@ -29,6 +29,7 @@ while (numero < 100) {
 
 */
 
+/*
 //Do while - Sirve para ejecutar al menos una vez el bloque de código
 
 let contador = 0
@@ -48,3 +49,15 @@ for (let i= 0; i<10; i++){
 
 console.log(i)
 //i = iteración, es una variable 
+
+*/
+
+//------------- Usar For Of
+
+let nombres = ["Carlos", "Pepe", "Ana", "Luisa"]
+
+for (const nombre of nombres) {
+    console.log("Nombre: " + nombre)
+}
+
+console.log("Estoy Fuera!")
